@@ -16,3 +16,9 @@ body {
    display: flex;
    justify-content: space-between;
 }
+
+.Social-Contact:link,
+.Social-Contact:visited {
+   color: #fae3b4;
+   font-size: 0.9rem;
+}

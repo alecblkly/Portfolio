@@ -11,9 +11,24 @@ function App() {
                <h4 className="Title">Portfolio is currently being updated.</h4>
             </div>
             <div className="Contact-Information">
-               <p className="Social-Contact">[Twitter]</p>
-               <p className="Social-Contact">[LinkedIn]</p>
-               <p className="Social-Contact">[GitHub]</p>
+               <a
+                  href="https://twitter.com/AlecBlkly"
+                  className="Social-Contact"
+               >
+                  [Twitter]
+               </a>
+               <a
+                  href="https://www.linkedin.com/in/alecblkly/"
+                  className="Social-Contact"
+               >
+                  [LinkedIn]
+               </a>
+               <a
+                  href="https://github.com/alecblkly"
+                  className="Social-Contact"
+               >
+                  [GitHub]
+               </a>
             </div>
          </div>
       </div>
