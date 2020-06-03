@@ -5,20 +5,24 @@ function Header() {
    return (
       <nav className="nav-bar">
          {/* Logo for Initials */}
-         <h1>AB</h1>
+         <div className="name-logo">
+            <h1>AB</h1>
+         </div>
          {/* Links for About (Socials Incl here), Projects, and Contact */}
-         <Link to="/" className="social-contact">
-            Home
-         </Link>
-         <Link to="/about" className="social-contact">
-            About
-         </Link>
-         <Link to="/projects" className="social-contact">
-            Projects
-         </Link>
-         <Link to="/contact" className="social-contact">
-            Contact
-         </Link>
+         <div className="nav-links">
+            <Link to="/" className="nav-link">
+               Home
+            </Link>
+            <Link to="/about" className="nav-link">
+               About
+            </Link>
+            <Link to="/projects" className="nav-link">
+               Projects
+            </Link>
+            <Link to="/contact" className="nav-link">
+               Contact
+            </Link>
+         </div>
       </nav>
    );
 }
