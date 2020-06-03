@@ -2,29 +2,29 @@ import React from 'react';
 
 function LandingPage() {
    return (
-      <div className="Container">
-         <div className="Terminal">
-            <div className="Base-Information">
-               <h2 className="Title">Alec Blakeley</h2>
-               <h3 className="Title">Full-Stack Web Developer.</h3>
-               <h4 className="Title">Portfolio is currently being updated.</h4>
+      <div className="container">
+         <div className="terminal">
+            <div className="base-information">
+               <h2 className="title">Alec Blakeley</h2>
+               <h3 className="title">Full-Stack Web Developer.</h3>
+               <h4 className="title">Portfolio is currently being updated.</h4>
             </div>
-            <div className="Contact-Information">
+            <div className="contact-information">
                <a
                   href="https://twitter.com/AlecBlkly"
-                  className="Social-Contact"
+                  className="social-contact"
                >
                   [Twitter]
                </a>
                <a
                   href="https://www.linkedin.com/in/alecblkly/"
-                  className="Social-Contact"
+                  className="social-contact"
                >
                   [LinkedIn]
                </a>
                <a
                   href="https://github.com/alecblkly"
-                  className="Social-Contact"
+                  className="social-contact"
                >
                   [GitHub]
                </a>
