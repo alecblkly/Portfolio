@@ -8,7 +8,7 @@ function LandingPage() {
                <h2 className="title">Alec Blakeley</h2>
                <h3 className="title">Full-Stack Web Developer.</h3>
                <p className="connect">
-                  If you are interesting in connecting while my portfolio is
+                  If you are interested in connecting with me while my portfolio is
                   being updated, please click on one of my socials in the footer
                   below.
                </p>
