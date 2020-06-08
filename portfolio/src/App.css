@@ -15,12 +15,29 @@ body {
 
 .nav-bar {
    display: flex;
+   justify-content: flex-end;
+   position: relative;
+   width: auto;
+   box-shadow: 0px 2px 15px 0px black;
+}
+
+.name-initials {
+   margin-right: auto;
+   margin-left: 2%;
+}
+
+.nav-links {
+   display: flex;
+   align-items: center;
+   height: auto;
+   width: auto;
 }
 
 .nav-link:link,
 .nav-link:visited {
    color: #fae3b4;
    font-size: 0.9rem;
+   padding: 0rem 0.75rem;
 }
 
 .contact-information {

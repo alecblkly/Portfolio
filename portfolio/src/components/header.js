@@ -5,8 +5,8 @@ function Header() {
    return (
       <nav className="nav-bar">
          {/* Logo for Initials */}
-         <div className="name-logo">
-            <h1>AB</h1>
+         <div className="name-initials">
+            <h1 className="initials">AB</h1>
          </div>
          {/* Links for About (Socials Incl here), Projects, and Contact */}
          <div className="nav-links">
