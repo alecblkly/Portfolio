@@ -2,32 +2,16 @@ import React from 'react';
 
 function LandingPage() {
    return (
-      <div className="Container">
-         <div className="Terminal">
-            <div className="Base-Information">
-               <h2 className="Title">Alec Blakeley</h2>
-               <h3 className="Title">Full-Stack Web Developer.</h3>
-               <h4 className="Title">Portfolio is currently being updated.</h4>
-            </div>
-            <div className="Contact-Information">
-               <a
-                  href="https://twitter.com/AlecBlkly"
-                  className="Social-Contact"
-               >
-                  [Twitter]
-               </a>
-               <a
-                  href="https://www.linkedin.com/in/alecblkly/"
-                  className="Social-Contact"
-               >
-                  [LinkedIn]
-               </a>
-               <a
-                  href="https://github.com/alecblkly"
-                  className="Social-Contact"
-               >
-                  [GitHub]
-               </a>
+      <div className="container">
+         <div className="terminal">
+            <div className="base-information">
+               <h2 className="title">Alec Blakeley</h2>
+               <h3 className="title">Full-Stack Web Developer.</h3>
+               <p className="connect">
+                  If you are interesting in connecting while my portfolio is
+                  being updated, please click on one of my socials in the footer
+                  below.
+               </p>
             </div>
          </div>
       </div>
