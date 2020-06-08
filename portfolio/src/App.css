@@ -35,6 +35,7 @@ body {
    bottom: 0;
    width: 100%;
    box-shadow: 0px -2px 15px black;
+   color: #ffffff;
 }
 
 .social-icons {
@@ -48,6 +49,7 @@ body {
 .name-initials {
    margin-right: auto;
    margin-left: 2%;
+   color: #ffffff;
 }
 
 .nav-links {
@@ -64,9 +66,9 @@ body {
    padding: 0rem 0.75rem;
 }
 
-.social-link:link,
-.social-link:visited {
-   color: black;
+.social-media:link,
+.social-media:visited {
+   color: #000000;
    font-size: 1.5rem;
    padding: 1rem;
 }

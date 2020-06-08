@@ -4,16 +4,28 @@ function Footer() {
    return (
       <div className="footer">
          <div className="social-icons">
-            <a href="https://twitter.com/AlecBlkly" className="social-link">
+            <a
+               href="https://twitter.com/AlecBlkly"
+               className="social-media"
+               alt="Twitter - AlecBlkly"
+               aria-label="Twitter - AlecBlkly"
+            >
                <i class="fab fa-twitter-square"></i>
             </a>
             <a
                href="https://www.linkedin.com/in/alecblkly/"
-               className="social-link"
+               className="social-media"
+               alt="LinkedIn - AlecBlkly"
+               aria-label="LinkedIn - AlecBlkly"
             >
                <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com/alecblkly" className="social-link">
+            <a
+               href="https://github.com/alecblkly"
+               className="social-media"
+               alt="GitHub - AlecBlkly"
+               aria-label="GitHub - AlecBlkly"
+            >
                <i class="fab fa-github-square"></i>
             </a>
          </div>
